@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+
+*.log
+*.tmp
+
+#Gradle
+.gradle/
+build/
+
+#Env
+.env
+
+#MacOs
+.DS_Store
