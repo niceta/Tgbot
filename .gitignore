@@ -167,6 +167,8 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+### Env ###
+.env
 
 ### Mac OS ###
 .DS_Store
