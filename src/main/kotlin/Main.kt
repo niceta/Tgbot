@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
         dispatch {
             text {
                 if (text.contains("www.instagram.com")) {
-                    val messageToSend = LinkFixerService.getFixedLink(text)
+                    val messageToSend = LinkFixer.fixLink(text)
                     bot.sendMessage(ChatId.fromId(message.chat.id), text = messageToSend)
                 }
             }
